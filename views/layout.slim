@@ -1,0 +1,29 @@
+doctype html
+html lang="en"
+  head
+	title== @title
+	meta charset="uft-8"
+    meta name="keywords" content="template language"
+    meta name="author" content="author"
+	
+	== css :styles
+	
+	//jQuery 
+	link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css"
+	script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+	script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"
+
+	//App specific logic
+	script src="/js/app.js"
+
+	body
+		header
+			h1 Songs by Guitar Cookbook
+			== slim :nav
+
+		section
+			== styled_flash
+			== yield
+
+		footer
+		    p &copy; 2014 GuitarPick

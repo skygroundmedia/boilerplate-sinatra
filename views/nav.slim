@@ -1,0 +1,16 @@
+nav
+  ul
+    li
+      a href=="/" class==current? Home
+    li
+      a href=="/about" class==current?("/about") About
+    li
+      a href=="/contact" class==current?("/contact") Contact
+    li
+      a href=="/songs" class==current?("/songs") Songs
+    li 
+	  - if authorized?
+	    a href="/logout" class==current?("/logout") Log Out
+	  - else
+	    a href="/login" class==current?("/login") Log In
+	
