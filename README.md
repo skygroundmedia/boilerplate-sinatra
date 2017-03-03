@@ -272,7 +272,7 @@ Test out your work
 - [Authentication w/ Warden](http://skli.se/2013/03/08/sinatra-warden-auth/)
 - [Facebook authentication with koala](https://github.com/benben/simple-ruby-facebook-example)
 - [twitter authentication](http://recipes.sinatrarb.com/p/middleware/twitter_authentication_with_omniauth)
-- [Simple Facebook authentication](https://github.com/benben/simple-ruby-facebook-example
+- [Simple Facebook authentication](https://github.com/benben/simple-ruby-facebook-example)
 - [Basic Sinatra Authentication](https://github.com/maxjustus/sinatra-authentication)
 
 ### Boilerplate Code
