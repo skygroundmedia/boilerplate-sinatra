@@ -143,9 +143,11 @@ First register your database by finding and promoting it
 ```language-powerbash
  irb
 ```
+
 ```language-powerbash
  require './app'
 ```
+
 ```language-powerbash
  DataMapper.auto_migrate!
 ```
@@ -278,6 +280,7 @@ Test out your work
 ### Boilerplate Code
 
 - Install a raw [Boilerplate Sinatra codebase](https://github.com/bmizerany/heroku-sinatra-app)
+
 
 ---
 
