@@ -41,7 +41,6 @@ Update all the app packages found in ```Gemfile```.
 
 # Step 3
 
-
 ### Install app packages
 
 Install all the app specific packages
@@ -131,11 +130,11 @@ If you need a local SQL database, you'll need to pick PostGres
   git push heroku master
 ```
 
+
 ---
 
 
 # Databasese
-
 
 ### Managing a local DB through IRB
 
@@ -173,7 +172,9 @@ First register your database by finding and promoting it
   DataMapper.auto_migrate!
 ```
 
+
 ---
+
 
 # Installing SQLite
 
@@ -203,6 +204,7 @@ Use [Homebrew](http://brew.sh/) to install SQLite
 4. SQLite is what you'll use for a local SQl database
 5. Postgresql is the SQL database you'll use for production
 6. config.ru is the configuration file that connect Procfile to your initial app.rb file.
+
 
 ### Adding a new property to the Database
 
@@ -238,6 +240,7 @@ Test out your work
  bash$ song.likes
 ```
 
+
 ---
 
 
@@ -259,13 +262,13 @@ Test out your work
  DataMapper.auto_upgrade!
 ```
 
+
 ---
 
 
 # Resources
 
 - [Github Sinatra Book Code](https://github.com/spbooks/SINATRA1)
-
 - [Upgrading Heroku Database](https://devcenter.heroku.com/articles/upgrade-heroku-postgres-with-pgbackups)
 
 
@@ -292,18 +295,16 @@ Test out your work
 Web server errors
 Find out if any servers are running 'headless'
 ```language-powerbash
-  ps aux | grep ruby
+ ps aux | grep ruby
 ```
 
 Quit any 'headless' running servers
 ```language-powerbash
-  kill -9 xxxxxx
+ kill -9 xxxxxx
 ```
 
-##Check Heroku logs
+## Check Heroku logs
 
 ```language-powerbash
   heroku logs
 ```
-
-
